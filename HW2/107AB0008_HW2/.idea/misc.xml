@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/NTUT/110-2/Android/HW2/107AB0008_HW2/app/src/main/res/layout-land/activity_main.xml" value="0.21472663139329806" />
+        <entry key="..\:/NTUT/110-2/Android/HW2/107AB0008_HW2/app/src/main/res/layout-xlarge/activity_main.xml" value="0.190234375" />
+        <entry key="..\:/NTUT/110-2/Android/HW2/107AB0008_HW2/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
         <entry key="..\:/NTUT/110-2/Android/HW2/HelloConstraint/app/src/main/res/layout-xlarge/activity_main.xml" value="0.190234375" />
         <entry key="..\:/NTUT/110-2/Android/HW2/HelloToast/app/src/main/res/layout-land/activity_main.xml" value="0.264" />
         <entry key="..\:/NTUT/110-2/Android/HW2/HelloToast/app/src/main/res/layout-xlarge/activity_main.xml" value="0.2" />
