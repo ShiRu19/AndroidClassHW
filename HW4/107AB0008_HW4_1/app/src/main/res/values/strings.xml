@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">107AB0008_HW4_1</string>
+    <string name="countText">0</string>
+    <string name="countButton">COUNT</string>
+    <string name="editText">This is an edit text</string>
+</resources>
