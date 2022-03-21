@@ -1,21 +1,25 @@
 package com.example.implicitintents;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ShareCompat;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mWebsiteEditText;
     private EditText mLocationEditText;
     private EditText mShareTextEditText;
-    static Uri locationForPhotos;
+    public static final int CAMERA_REQUEST_CODE = 102;
+    ImageView selectedImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mWebsiteEditText = findViewById(R.id.edittext_website);
         mLocationEditText = findViewById(R.id.edittext_location);
         mShareTextEditText = findViewById(R.id.edittext_share);
+        selectedImage = findViewById(R.id.displayImageView);
     }
 
     public void openWebsite(View view) {
@@ -75,13 +80,17 @@ public class MainActivity extends AppCompatActivity {
                     .startChooser();
     }
 
-
-    public void takePicture(String targetFilename) {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        intent.putExtra(MediaStore.EXTRA_OUTPUT,
-                Uri.withAppendedPath(locationForPhotos, targetFilename));
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(intent, 1);
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == CAMERA_REQUEST_CODE){
+            Bitmap image = (Bitmap) data.getExtras().get("data");
+            selectedImage.setImageBitmap(image);
         }
+    }
+
+    public void openCamera(View view) {
+        Intent camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE); //呼叫照相機
+        startActivityForResult(camera, CAMERA_REQUEST_CODE);
     }
 }
