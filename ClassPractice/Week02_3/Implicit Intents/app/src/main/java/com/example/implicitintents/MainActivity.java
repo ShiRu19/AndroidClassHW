@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText mWebsiteEditText;
     private EditText mLocationEditText;
     private EditText mShareTextEditText;
-    static Uri locationForPhotos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,20 +67,10 @@ public class MainActivity extends AppCompatActivity {
         String mimeType = "text/plain";
 
         ShareCompat.IntentBuilder
-                    .from(this)
-                    .setType(mimeType)
-                    .setChooserTitle("Share this text with: ")
-                    .setText(txt)
-                    .startChooser();
-    }
-
-
-    public void takePicture(String targetFilename) {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        intent.putExtra(MediaStore.EXTRA_OUTPUT,
-                Uri.withAppendedPath(locationForPhotos, targetFilename));
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(intent, 1);
-        }
+                .from(this)
+                .setType(mimeType)
+                .setChooserTitle("Share this text with: ")
+                .setText(txt)
+                .startChooser();
     }
 }

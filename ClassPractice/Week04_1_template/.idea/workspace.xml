@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73cbd2eb-1530-41fb-9bad-935d9a6d7b08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Week04_1/app/src/main/java/com/example/droidcafe/OrderActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week04_1/app/src/main/res/layout/activity_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week02_3/Implicit Intents/app/src/main/java/com/example/implicitintents/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week02_3/Implicit Intents/app/src/main/java/com/example/implicitintents/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week02_3/Implicit Intents/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week02_3/Implicit Intents/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="27Y9aKvZRJMAJBVxz6WrJGpiyBZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DroidCafe" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73cbd2eb-1530-41fb-9bad-935d9a6d7b08" name="Default Changelist" comment="" />
+      <created>1649486215163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649486215163</updated>
+    </task>
+    <servers />
+  </component>
+</project>

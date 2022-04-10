@@ -1,0 +1,18 @@
+Q1. How do you add images to an Android Studio project? Choose one:
+
+Ans:
+Copy the image files into your project's drawable folder.
+
+------------------------------------------------------------------------------------
+
+Q2. How do you make an ImageView clickable like a simple Button? Choose one:
+
+Ans:
+Add the android:onClick attribute to the ImageView in the layout and use it to call the click handler in the Activity.
+
+------------------------------------------------------------------------------------
+
+Q3. Which rule applies to a click handler called from the attribute in the layout? Choose one:
+
+Ans:
+The click handler method must include the event listener View.OnClickListener, which is an interface in the View class .
