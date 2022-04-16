@@ -10,14 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6fd4298-11fc-4c13-b8bc-baae8ce038d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Week04_1/app/src/main/java/com/example/droidcafe/OrderActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week04_1/app/src/main/res/layout/activity_order.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02_3/Implicit Intents/app/src/main/java/com/example/implicitintents/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02_3/Implicit Intents/app/src/main/java/com/example/implicitintents/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02_3/Implicit Intents/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02_3/Implicit Intents/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../HW7/107AB0008_HW7_1/app/src/main/java/com/example/a107ab0008_hw7_1/DonutActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../HW7/107AB0008_HW7_1/app/src/main/res/layout/activity_donut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week04_1_template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week04_1_template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week04_4/NavDrawerExperiment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week04_4/NavDrawerExperiment/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week04_1" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -128,5 +124,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
