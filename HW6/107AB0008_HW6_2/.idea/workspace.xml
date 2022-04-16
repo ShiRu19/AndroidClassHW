@@ -13,11 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9564bcbd-6d2a-4f71-a0cb-fbb29902be92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../107AB0008_HW6_2/.idea/modules/107AB0008_HW6_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../107AB0008_HW6_2/.idea/modules/app/107AB0008_HW6_2.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/DroidCafeOptions_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/DroidCafeOptions_1.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClassPractice/Week04_3/Picker For Date/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClassPractice/Week04_3/Picker For Date/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/DroidCafeOptions_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/DroidCafeOptions_1.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -55,8 +56,8 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="DroidCafeOptions_1.app" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="107AB0008_HW6_2.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
