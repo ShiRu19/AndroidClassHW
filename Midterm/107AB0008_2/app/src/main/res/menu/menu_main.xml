@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a107ab0008_2.MainActivity">
+    <item
+        android:id="@+id/action_buy"
+        android:orderInCategory="10"
+        android:title="Buy"
+        android:icon="@drawable/ic_buy"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="20"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="30"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="40"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>
