@@ -15,4 +15,4 @@ StateListDrawable
 Q3. Suppose you want to create an app that has a white background, dark text, and a dark action bar. Which base style does your application style inherit from? Choose one:
 
 Ans:
-Theme.AppCompat.Light
+Theme.AppCompat.Light.DarkActionBar
